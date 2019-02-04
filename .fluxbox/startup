@@ -14,7 +14,10 @@ xmodmap "/home/sys/.Xmodmap"
 # wmnd &
 # wmsmixer -w &
 # idesk &
+
 compton &
+xbindkeys --poll-rc
+
 # And last but not least we start fluxbox.
 # Because it is the last app you have to run it with ''exec'' before it.
 exec fluxbox
